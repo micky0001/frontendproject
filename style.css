@@ -1,7 +1,18 @@
 html {
   scroll-behavior: smooth;
 }
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  height: 40px;
+  width: 39px;
+  color: white;
+  font-size: 25px;
+  background-color: #ffb03b;
+  border-radius: 50%;
 
+
+}
 .fa-phone {
   color: #ffb03b;
 }
