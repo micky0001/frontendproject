@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -12,6 +17,25 @@ html {
   border-radius: 50%;
 
 
+}
+
+.owl-dot
+{
+  background-color: white !important;
+  width: 20px;
+  height: 19px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  padding: 5px;
+  margin-left: 10px;
+  
+}
+.owl-dots .active
+{
+  background-color: #ffb03b !important;
 }
 .fa-phone {
   color: #ffb03b;
